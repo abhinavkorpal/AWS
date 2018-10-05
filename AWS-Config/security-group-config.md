@@ -7,6 +7,8 @@ The Lambda function will be triggered whenever the security group is modified.If
 
 ![](./images/diagramm3.png)
 
+<img src="https://github.com/abhinavkorpal/AWS/images/logo.png" width="100">
+
 ### Topics covered
 
 By the end of this module, you will be able to:
