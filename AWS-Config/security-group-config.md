@@ -19,3 +19,45 @@ By the end of this module, you will be able to:
 3.  Create and enable a custom AWS Config rule
 
 4.  Use CloudWatch Logs to review the execution of the AWS Config rule
+
+### Prerequisites
+
+To successfully complete this module, you should be familiar with EC2 security groups. Python programming skills are helpful, although full solution code is provided.
+
+### 1. Select a Region
+
+Login to the AWS Console. Make sure that the user has "Admin" rights to the AWS services. Not using an Admin user will create permission issues during the module. Make a note of the AWS *region name*, for example, *EU (Ireland),*
+
+**Tip** The AWS region name is always listed in the upper-right corner of the AWS Management Console, in the navigation bar.
+
+For more information about regions, see [AWS Regions and Endpoints](http://docs.aws.amazon.com/general/latest/gr/rande.html).
+
+___Complete all the steps below unless they are marked "optional". Use left arrow to expand sections marked with (expand for details).___
+
+### 2. Complete Initial Environment Configuration
+
+<details open>
+<summary><strong>2.1. Enable AWS Config (expand for details)
+</strong></summary><p>
+<br/>
+
+- __2.1.1.__  On the **Services** menu, click **Config**.
+
+- __2.1.2.__  Click **Get Started** if you see a button with that text, else click
+    **Settings**.
+
+- __2.1.3.__  Under Resource types to record, ***uncheck*** the box **Record all resources supported in this region**.
+
+- __2.1.4.__  Click inside of the **Specific types** box. A scroll box field will appear. Scroll down to the EC2 section and click **SecurityGroup**. You should see **EC2: Security Group** appear in the **Specific types** box. Click outside of the box to close the scroll box field.
+
+- __2.1.5.__  Under **Amazon S3 bucket**, select **Create a bucket**. In the **Bucket name** field, use the default name that is provided. Leave the **Prefix (optional)** text box empty. *Make sure that the Bucket Name is not already created else you will get a bucket already exist error.*
+
+- __2.1.6.__  Under **AWS Config Role**, select **Create a Role**. In the **Role name** field, use the default name that is provided.
+
+- __2.1.7.__  Click the **Next** button at the bottom right of the web page.
+
+- __2.1.8.__  On the **AWS Config Rules** page, do not select any rules. You will add a custom rule later. Click **Next**.
+
+- __2.1.9.__  On the **Review** page, click **Confirm.** After a while, you will see the **Config Dashboard** page appear.
+
+![](./images/image3.png)
