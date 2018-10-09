@@ -1,2 +1,4 @@
-# aws_automation_script
-Amazon Web Services Automation Script 
+![](https://github.com/abhinavkorpal/AWS/blob/master/images/aws.png)
+
+# AWS 
+### Amazon Web Services
