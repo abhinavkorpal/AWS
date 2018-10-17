@@ -61,3 +61,33 @@ ___Complete all the steps below unless they are marked "optional". Use left arro
 - __2.1.9.__  On the **Review** page, click **Confirm.** After a while, you will see the **Config Dashboard** page appear.
 
 ![](./images/image3.png)
+
+
+</details>
+
+<details open>
+<summary><strong>2.2. Create an EC2 Security Group (expand for details)
+</strong></summary><p>
+<br/>
+
+- __2.2.1.__ Click the **Services** menu and select **VPC.** The **VPC Dashboard** will appear.
+
+- __2.2.2.__ On the left hand side of the window click **Security Groups**.
+
+- __2.2.3.__ Click **Create Security Group button**.
+
+- __2.2.4.__ In the **Name tag** text box, enter "SID402Module3SG". The **Group name** text box should populate automatically.
+
+- __2.2.5.__ In the Description text box, enter "Module 3 Security Group". Keep the default VPC in the **VPC** drop down list.
+
+- __2.2.6.__	Click **Yes, Create** button.
+
+- __2.2.7.__	Select the **SID402Module3SG** Security Group.  Copy the group identifier which will be in the form of sg-######## to a scratch file as you will need it later.
+
+- __2.2.8.__	Click on the **Inbound Rules** tab and click the **Edit** button.
+
+- __2.2.9.__	Add the Inbound Rules. Your Inbound Rules should look like this:
+
+<p/>
+
+![](./images/image4.png)
