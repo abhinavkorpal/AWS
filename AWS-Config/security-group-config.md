@@ -60,7 +60,7 @@ ___Complete all the steps below unless they are marked "optional". Use left arro
 
 - __2.1.9.__  On the **Review** page, click **Confirm.** After a while, you will see the **Config Dashboard** page appear.
 
-![](./images/image3.png)
+![](https://github.com/abhinavkorpal/AWS/blob/master/images/config_dashboard.png)
 
 
 </details>
@@ -90,4 +90,4 @@ ___Complete all the steps below unless they are marked "optional". Use left arro
 
 <p/>
 
-![](./images/image4.png)
+![](https://github.com/abhinavkorpal/AWS/blob/master/images/securtity_group.png)
